@@ -5,6 +5,38 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge' /> 
     <title>My Awesome App</title>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, viewport-fit=cover' />
+      <style>
+        *{
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+        }
+        body {
+          background: linear-gradient(45deg, #071952,#000);          
+          color: white;
+          display: grid;
+          place-content: center;
+          height: 100vh;
+        }
+        .backend__title {
+          color: #AED2FF;
+          margin: 1rem 0
+        }
+        .backend__link {
+          text-align: center;
+          text-decoration: none;
+          color: white;
+          padding: .3rem 1rem;
+          background: #071952;
+          border-radius: 10px;
+          display: block;
+          font-weight: bold;
+          box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 10px #fff ;
+        }
+        .backend__link:hover{
+          background: #088395;
+        }
+      </style>
   </head>
   <body>
     {{{body}}}
