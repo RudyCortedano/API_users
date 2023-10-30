@@ -17,7 +17,7 @@ const postUser = catchError(async(req, res) =>{
     password,
     birthday
   })
-  return res.status(204).json(add)
+  return res.json(add)
 });
 
 // get/:id
